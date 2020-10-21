@@ -1,0 +1,62 @@
+@import './../base/color';
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #171717;
+
+    @include large-screen {
+        position: absolute;
+        left: -100%;
+        z-index: 99;
+        width: 100%;
+        top: 3rem;
+        display: block;
+        transition: .2s;
+    }
+
+    &.active {
+        left: 0;
+    }
+
+    li {
+        line-height: 1;
+        @include large-screen {
+            padding: .5rem 0;
+            margin-bottom: .5rem;
+        }
+        &:not(:last-child) {
+            @include extra-large-screen {
+                border-right: 2px solid $secondary-color;
+                margin-right: 7px;
+                padding-right: 7px;
+            }        
+        }
+        a {
+            color: $secondary-color;
+            text-transform: capitalize;
+            // font-weight: 700;
+            font-size: 1.3rem;
+            display: block;
+
+            @include large-screen {
+                font-size: 1.2rem;
+            }
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+.navbar-toggler {
+    color: $secondary-color;
+    display: none;
+    margin-left: auto;
+    position: relative;
+    z-index: 999;
+
+    @include large-screen {
+        display: block;
+    }
+}

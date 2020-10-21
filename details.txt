@@ -1,0 +1,53 @@
+You have the PSD already. Now, I will give you the linking info.
+
+Links:
+
+1. Top navigation links - smooth scroll to their respective sections using anchor links
+
+2. "Join Us" button in Home section - smooth scroll to "Join Our Coven" section
+
+3. "@LEVITICUSKNOX" and Instagram icon links in "My Mission" section - both link to : https://www.instagram.com/leviticusknox - in a SEPARATE BROWSER TAB (not same tab)
+
+4. "Ready" link and arrow button in "Become a Witch" section - smooth scroll to "Join Our Coven" section
+
+5. Form in "Join Our Coven" section - sends to: leviticus@traibl.com
+
+6. "Become a Supporter" link in "Wicked Circle Academy" section - use a placeholder link of "#" which acts like no link. I will create a supporter page on Patreon or another service later and update the link myself.
+
+7. "Study in Europe" link in "Wicked Circle Academy" section - use a placeholder link of "#" which acts like no link. I will create a purchase page for this service later and update the link myself.
+
+8. Lesson 1 image and "What is witchcraft and what
+makes someone a witch?" link - open link in a SEPARATE BROWSER TAB (not same tab) the following URL (doesn't exist yet - I will create this page later but I want the link now): "/wickedcircleacademy/what-is-witchcraft-and-what-makes-someone-a-witch". This will be a different page on the same website. If your work is good, I will hire you to build this page later.
+
+9. Lesson 2 image and "Lesson 2: The Phases of the moon and why they matter to witches" link - open link in a SEPARATE BROWSER TAB (not same tab) the following URL (doesn't exist yet - I will create this page later but I want the link now): "/wickedcircleacademy/the-phases-of-the-moon-and-why-they-matter-to-witches". This will be a different page on the same website. If your work is good, I will hire you to build this page later also.
+
+
+10. Lesson 3 image and "Lesson 3: The history of witchcraft, part 1 - An ancient practice" link - open link in a SEPARATE BROWSER TAB (not same tab) the following URL (doesn't exist yet - I will create this page later but I want the link now): "/wickedcircleacademy/the-history-of-witchcraft-part-1-an-ancient-practice". This will be a different page on the same website. If your work is good, I will hire you to build this page later also.
+
+11. "View All Lessons" link in "Online Lessons" section - open link in a SEPARATE BROWSER TAB (not same tab) the following URL (doesn't exist yet - I will create this page later but I want the link now): "/wickedcircleacademy"
+
+12. "Support Us" button in "Support Our Coven" section - use a placeholder link of "#" which acts like no link. I will create a supporter page on Patreon or another service later and update the link myself.
+
+13. "View Novel Page" link in "My Book" section - open link in a SEPARATE BROWSER TAB (not same tab) the following URL (doesn't exist yet - I will create this page later but I want the link now): "/abashed"
+
+14. "Follow Me on Instagram @LEVITICUSKNOX" link in "My Instagram" section - link to: https://www.instagram.com/leviticusknox - in a SEPARATE BROWSER TAB (not same tab)
+
+15. "Order Magick Services" link in "Magick Services" section - open link in a SEPARATE BROWSER TAB (not same tab) the following URL (doesn't exist yet - I will create this page later but I want the link now): "/services"
+
+16. Form in "Reach Out" section - send to the following email: leviticus@traibl.com
+
+17. Instagram icon in footer section - link to: https://www.instagram.com/leviticusknox - in a SEPARATE BROWSER TAB (not same tab)
+
+18. "Support Our Coven" link in footer section - use a placeholder link of "#" which acts like no link. I will create a supporter page on Patreon or another service later and update the link myself.
+
+19. "View My Novel" link in footer - open link in a SEPARATE BROWSER TAB (not same tab) the following URL (doesn't exist yet - I will create this page later but I want the link now): "/abashed"
+
+20. "Media Inquiry" link in footer - open link in a SEPARATE BROWSER TAB (not same tab) the following URL (doesn't exist yet - I will create this page later but I want the link now): "/media"
+
+Rollover/Mouseover Effects:
+
+1. Rollover Effect for all Text links, including links in top navigation: on mouseover - have them change color to the same purple we use on the site: #f223f8. Do not add any animations to the links, they should only change color from white to purple.
+
+2. Rollover for all buttons - have them change to white buttons with black text. Do not add any animations to the buttons, they should only change color as I just described..
+
+3. Rollover effect for arrow icon in "Become a Witch" section - have it turn white. Do not add any animations to icon, it should only change color as I just described.

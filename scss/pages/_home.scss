@@ -1,0 +1,920 @@
+
+.banner {
+	position: relative;
+	padding-top: 2rem;
+	min-height: 52rem;
+
+	.banner-img {
+		position: absolute;
+		left: 17%;
+		right: 0;
+		margin: 0 auto;
+		z-index: -9;
+		max-width: 100%;
+
+		@include medium-screen {
+	
+		}
+		@include tab-screen {
+			max-width: 400px;
+			left: 5%;
+		}
+		@include mobile-screen {
+			max-width: 300px;
+			left: 2%;
+		}
+	}
+
+
+	.small-des {
+		
+		position: absolute;
+		left: 15%;
+		bottom: 0;
+
+		@include extra-large-screen {
+			left: 15%;
+			max-width: 550px;
+		}
+		@include large-screen {
+			left: 8%;
+			max-width: 450px;
+		}
+
+		@include medium-screen {
+			bottom: 15%;
+		}
+		@include tab-screen {
+			bottom: -2%;
+			left: 0;
+			right: 0;
+			margin:  auto;
+		}
+		@include mobile-screen {
+			max-width: 350px;
+			bottom: 0;
+		}
+	}
+}
+
+.big-text {
+	padding-top: 8rem;
+
+	@include extra-large-screen {
+		padding-top: 14rem;
+	}	
+
+	.first {
+		font-size: 4rem;
+		font-weight: 400;
+		
+
+		@include extra-large-screen {
+			left: 39%;
+			top: 30%;
+		}
+
+		@include large-screen {
+			left: 30%;
+			top: 30%;
+		}
+
+		@include medium-screen {
+			left: 20%;
+			font-size: 3rem;
+		}
+		@include medium-screen {
+			top: 20%;
+			left: 10%;
+		}
+	}
+
+	.second {
+		@include extra-large-screen {
+			font-size: 15.5rem;
+			left: 27%;
+			top: 35%;
+		}
+		@include large-screen {
+			font-size: 13rem;
+			left: 20%;
+			top: 40%;
+		}
+		@include medium-screen {
+			font-size: 8rem;
+			left: 15%;
+		}
+		@include tab-screen {
+			font-size: 5rem;
+			top: 30%;
+			left: 10%;
+			
+		}
+		@include mobile-screen {
+			font-size: 3rem;
+		}
+	}
+
+	.thired {
+		font-weight: 400;
+		
+
+		@include extra-large-screen {
+			left: 66%;
+			font-size: 4rem;
+			bottom: 10%;
+		}
+		@include large-screen {
+			left: 66%;
+			font-size: 4rem;
+			bottom: 7%;
+		}
+		@include medium-screen {
+			font-size: 3rem;
+		}
+		@include tab-screen {
+			bottom: 25%;
+			left: 50%;
+		}
+		@include mobile-screen {
+			bottom: 45%;
+		}
+	}
+
+	.fourth {
+		
+
+		@include extra-large-screen {
+			font-size: 7rem;
+			left: 68%;
+			bottom: -3%;
+		}
+		@include large-screen {
+			font-size: 5rem;
+			left: 69%;
+			bottom: -3%;
+		}
+		@include medium-screen {
+			left: 60%;
+		}
+		@include tab-screen {
+			bottom: 20%;
+			font-size: 3rem;
+			left: 50%;
+		}
+		@include mobile-screen {
+			bottom: 40%;
+			left: 50%;
+		}
+	}
+	
+	.first,
+	.second,
+	.thired,
+	.fourth {
+		position: absolute;
+	}
+}
+.my-mission {
+	@include extra-large-screen {
+		padding-bottom: 4.5rem;
+		padding-top: 10rem;
+	}
+	@include large-screen {
+		padding-bottom: 2.5rem;
+		padding-top: 6rem;
+	}
+	@include medium-screen {
+		padding-bottom: 2rem;
+		padding-top: 7rem;
+	}
+
+	a {
+		font-size: 1.4rem;
+		display: inline-block;
+
+		@include tab-screen {
+			font-size: 1rem;
+		}
+
+		i {
+			margin-left: 1rem;
+			font-size: 1.7rem;
+		}
+	}
+
+	img {
+		@include medium-screen {
+			margin-top: 2rem;
+		}
+	}
+}
+
+.my-witche {
+
+	@include extra-large-screen {
+		padding-bottom: 4.5rem;
+		padding-top: 10rem;
+	}
+	@include large-screen {
+		padding-bottom: 2.5rem;
+		padding-top: 6rem;
+	}
+	@include medium-screen {
+		padding-bottom: 2rem;
+		padding-top: 4rem;
+	}
+
+	h2 {
+		margin-bottom: 4rem;
+
+		@include large-screen {
+			margin-bottom: 2.5rem;
+		}
+	}
+	.witches-box {
+		display: flex;
+		border: 1px solid $color-4;
+		border-radius: 5px;
+		padding: 1rem;
+		align-items: center;
+
+		@include extra-large-screen {
+			margin-left: 5rem;
+		}
+	
+		@include tab-screen {
+			display: block;
+		}
+		ul {
+			@include tab-screen {
+				padding-left: 0;
+			}
+		}
+	
+		img {
+			max-height: 490px;
+			@include tab-screen {
+				display: block;
+				margin-bottom: 1rem;
+				width: 100%;
+				max-height: unset;
+			}
+		}
+		.space-bottom {
+			margin-bottom: 2.2rem;
+
+			@include medium-screen {
+				margin-bottom: 1.2rem;
+			}
+		}
+		p,
+		li {
+			font-weight: 300;
+			color: #e6e6e6;
+	
+			@include extra-large-screen {
+				font-size: 1.3rem;
+			}
+			@include large-screen {
+				font-size: 1.2rem;
+			}
+		}
+	
+		li {
+			span {
+				color: $color-4;
+				display: inline-block;
+				margin-left: 5px;
+			}
+		}
+	}
+}
+
+.words {
+
+	@include extra-large-screen {
+		padding-bottom: 4.5rem;
+		padding-top: 10rem;
+	}
+	@include large-screen {
+		padding-bottom: 2.5rem;
+		padding-top: 6rem;
+	}
+	@include medium-screen {
+		padding-bottom: 2rem;
+		padding-top: 4rem;
+	}
+
+	h2 {
+		
+		@include extra-large-screen {
+			margin-bottom: 4rem;
+		}
+		@include medium-screen {
+			margin-bottom: 2rem;
+		}
+	}
+
+	.word-box {
+		display: flex;
+		align-items: center;
+		border: 1px solid $secondary-color;
+		
+
+		@include extra-large-screen {
+			padding: 3.2rem;
+		}
+		@include large-screen {
+			padding: 2.2rem;
+		}
+		@include tab-screen {
+			padding: 1rem;
+			display: block;
+		}
+
+		img {
+			@include tab-screen  {
+				display: block;
+				margin: 1rem auto;
+			}
+		}
+
+		.qoute {
+			border-left: 1px solid $color-4;
+			padding-left: 2rem;
+			margin-left: 2rem;
+
+			@include tab-screen {
+				padding-left: 0;
+				margin-left: 0;
+				border-left: 0;
+			}
+
+			p {
+				color: #e6e6e6;
+				line-height: 1.2;
+
+				@include extra-large-screen {
+					margin-bottom: 2.4rem;
+				}
+			}
+		}
+
+	}
+}
+
+.become-witche {
+
+	@include extra-large-screen {
+		padding-bottom: 14.5rem;
+		padding-top: 10rem;
+	}
+	@include large-screen {
+		padding-bottom: 10rem;
+		padding-top: 8rem;
+	}
+	@include medium-screen {
+		padding-bottom: 7rem;
+		padding-top: 5rem;
+	}
+
+	h2 {
+		margin-bottom: 3rem;
+
+		@include medium-screen {
+			margin-bottom: 2rem;
+		}
+	}
+
+	p {
+		color: #e6e6e6;
+	}
+	.image {
+		padding: 1rem;
+		border: 1px solid #e6e6e6;
+
+		@include medium-screen {
+			margin-top: 2rem;
+		}
+	}
+	.ready {
+		i {
+			color: $primary-color;
+		}
+	}
+}
+
+.join-coven {
+	background-color: $color-5;
+
+	@include extra-large-screen {
+		padding: 12.5rem 0;
+	}
+	@include large-screen {
+		padding: 9rem 0;
+	}
+	@include medium-screen {
+		padding: 6rem 0;
+	}
+	@include tab-screen {
+		padding: 3rem 0;
+	}
+
+	h2 {
+		color: #f223f8;
+		font-size: 2.3rem;
+		font-weight: 400;
+
+		@include mobile-screen {
+			font-size: 1.7rem;
+		}
+	}
+
+	p {
+		font-weight: 300;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.5rem;
+		margin-bottom: 3.7rem;
+
+		@include medium-screen {
+			margin-bottom: 2.5rem;
+		}
+
+		@include mobile-screen {
+			font-size: 1rem;
+			margin-bottom: 1rem;
+		}
+	}
+
+	.form {
+		padding: 7rem 0;
+		border: 1px solid $primary-color;
+		border-radius: 1.5rem;
+		width: 70%;
+		margin: auto;
+
+		@include medium-screen {
+			width: 90%;
+			padding: 2rem 0;
+		}
+
+		&-inner {
+			width: 70%;
+			margin: auto;
+
+			@include medium-screen {
+				width: 90%;
+			}
+		}
+
+		.form-group {
+
+			@include extra-large-screen {
+				margin-bottom: 3.5rem;
+			}
+			@include large-screen {
+				margin-bottom: 3rem;
+			}
+
+			@include tab-screen {
+				margin-bottom: 1.5rem;
+			}
+
+		}
+		input {
+			border: 1px solid $primary-color;
+			display: block;
+			font-weight: 300;
+			border-radius: 2rem;
+			color: $secondary-color;
+			text-transform: uppercase;			
+			text-align: center;
+			background-color: transparent;
+			padding: 1rem;
+
+			@include extra-large-screen {
+				height: 4.4rem;
+			}
+			@include large-screen {
+				height: 3.4rem;
+			}
+
+			@include tab-screen {
+				height: 2.5rem;
+			}
+			
+			&:focus {
+				outline: none;
+				box-shadow: 0;
+			}
+			&::placeholder {
+				color: $secondary-color;
+			}
+		}
+	}
+	
+}
+
+.wicked-academy {
+
+	@include extra-large-screen {
+		padding-top: 14rem;
+		padding-bottom: 4.3rem;
+	}
+	@include large-screen {
+		padding-top: 11rem;
+		padding-bottom: 3rem;
+	}
+	@include medium-screen {
+		padding-bottom: 2rem;
+		padding-top: 8rem;
+	}
+	@include tab-screen {
+		padding-top: 5rem;
+	}
+	p {
+		color: #e6e6e6;
+	}
+
+	a {
+		font-weight: 500;
+		display: inline-block;
+		margin: 2rem 0;
+		text-align: center;
+	}
+}
+
+.online-lessons {
+
+	@include extra-large-screen {
+		padding-bottom: 15.5rem;
+		padding-top: 10rem;
+	}
+	@include large-screen {
+		padding-bottom: 12rem;
+		padding-top: 8rem;
+	}
+	@include medium-screen {
+		padding-bottom: 8rem;
+		padding-top: 6rem;
+	}
+
+	@include tab-screen {
+		padding-bottom: 5rem;
+		padding-top: 3rem;
+	}
+
+	h2 {
+		margin-bottom: 3rem;
+		@include extra-large-screen {
+		margin-bottom: 4.5rem;
+		}
+	}
+	.col-xl-4 {
+		@include medium-screen {
+			margin-bottom: 3rem;
+		}
+	}
+	.lesson-box {
+		background-color: #101010;
+		margin-bottom: 1rem;
+		height: 100%;
+
+		
+		
+		img {
+			width: 100%;
+		}
+
+		.content {
+			padding: .7rem 1rem 1.2rem 1rem;
+
+			@include extra-large-screen {
+				padding: .7rem 1.8rem 2.3rem 1.8rem;
+			}
+			@include large-screen {
+				padding: .7rem 1.5rem 2rem 1.5rem;
+			}
+		}
+		p {
+			font-size: 1.2rem;
+			@include lato-light;
+		}
+		h3 {
+			color: $primary-color;
+			margin-bottom: 1rem;
+			font-size: 1.8rem;
+			@include lato-light;
+
+			span {
+				color: $secondary-color;
+			}
+		}
+	}
+}
+
+.support-coven {
+	
+	background-image: url('./../images/support-coven.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+
+	@include extra-large-screen {
+		padding-top: 19.4rem;
+		padding-bottom: 18rem;
+	}
+	@include large-screen {
+		padding-top: 15rem;
+		padding-bottom: 12rem;
+	}
+	@include medium-screen {
+		padding-top: 12rem;
+		padding-bottom: 10rem;
+	}
+
+	@include tab-screen {
+		padding-top: 7rem;
+		padding-bottom: 6rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+		@include extra-large-screen {
+			font-size: 4rem;
+		}
+		@include medium-screen {
+			font-size: 3rem;
+		}
+	}
+
+	p {
+		font-size: 1.5rem;
+		margin: 1.5rem 0 2rem;
+		font-family: 'Montserrat', sans-serif;
+		@include extra-large-screen {
+			font-size: 2.5rem;
+		}
+	}
+}
+
+.my-book {
+	@include extra-large-screen {
+		padding-top: 14rem ;
+		padding-bottom: 4rem;
+	}
+	@include large-screen {
+		padding-top: 9rem ;
+		padding-bottom: 3rem;
+	}
+	@include medium-screen {
+		padding-top: 5rem ;
+	}
+	@include tab-screen {
+		padding-top: 3rem ;
+	padding-bottom: 2rem;
+	}
+
+	.border-img{
+		@include medium-screen {
+			margin-top: 2rem;
+		}
+	}
+}
+.my-instagram {
+	
+	
+	@include extra-large-screen {
+		padding-bottom: 4.4rem;
+		padding-top: 10rem;
+	}
+	@include medium-screen {
+		padding-bottom: 3rem;
+		padding-top: 7rem;
+	}
+	@include tab-screen {
+		padding-bottom: 2rem;
+		padding-top: 4rem;
+	}
+
+	h2 {
+		margin-bottom: 2rem;
+		@include extra-large-screen {
+			margin-bottom: 4rem;
+		}
+	}
+	.grid {
+		display: grid;
+		grid-gap: 1rem;
+
+		@include extra-large-screen {
+			grid-template-columns: auto auto auto auto;
+			grid-gap: 2.5rem 2rem;
+		}
+		@include medium-screen {
+			grid-template-columns: auto auto auto;
+			grid-gap: 2rem 1.5rem;
+		}
+		@include tab-screen {
+			grid-template-columns: auto auto;
+			grid-gap: 1rem;
+		}
+
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	
+}
+.magick-services {
+	
+	@include extra-large-screen {
+		padding-bottom: 7.5rem;
+		padding-top: 10rem;
+	}
+	@include large-screen {
+		padding-bottom: 5rem;
+		padding-top: 7rem;
+	}
+	@include medium-screen {
+		padding-top: 3rem;
+	padding-bottom: 3rem;
+	}
+
+	@include tab-screen {
+		padding-bottom: 2rem;
+		padding-top: 4rem;
+	}
+
+	p {
+		@include lato-light;
+		font-size: 1.7rem;
+		margin-bottom: 2rem;
+		@include large-screen {
+			margin-bottom: 1rem;
+		}
+	}
+
+	.border-img{
+		@include medium-screen {
+			margin-top: 2rem;
+		}
+	}
+}
+.reach-out {
+	@include extra-large-screen {
+		padding-top: 8rem;
+		padding-bottom: 14.5rem;
+	}
+	@include large-screen {
+		padding-top: 6rem;
+		padding-bottom: 12rem;
+	}
+	@include medium-screen {
+		padding-top: 4rem;
+		padding-bottom: 8rem;
+	}
+	@include tab-screen {
+		padding-top: 3rem;
+		padding-bottom: 5rem;
+	}
+
+	h2 {
+		color: $primary-color;
+		font-size: 2.6rem;
+		font-weight: 400;
+	}
+	.form {
+		padding-top: 2rem;
+
+		@include extra-large-screen {
+			padding-top: 4rem;
+		}
+
+		@include medium-screen {
+			padding-top: 1.5rem;
+		}
+		
+		.form-group {
+			margin-bottom: 1rem;
+
+			@include extra-large-screen {
+				margin-bottom: 3rem;
+			}
+			@include large-screen {
+				margin-bottom: 2rem;
+			}
+		}
+		textarea,
+		input {
+			border: 1px solid $primary-color;
+			display: block;
+			padding: 1.6rem;
+			width: 100%;
+			font-size: 1.8rem;			
+			color: $secondary-color;
+			text-transform: uppercase;			
+			text-align: center;
+			background-color: transparent;
+			
+			@include lato-light;
+			
+			&:focus {
+				outline: none;
+				box-shadow: 0;
+			}
+			&::placeholder {
+				color: $secondary-color;
+			}
+		}
+		input {
+			height: 100px;
+			border-radius: 3rem;
+
+			@include extra-large-screen {
+				height: 75px;
+			}
+			@include large-screen {
+				height: 65px;
+			}
+			@include medium-screen {
+				height: 55px;
+			}
+		}
+
+		textarea {
+			border-radius: .8rem;
+		}
+		button {
+			margin-top: 2rem;
+			margin:  0 auto;
+			@include extra-large-screen {
+				margin-top: 3.5rem;
+			}
+		}
+	}
+}
+
+.footer {
+	border-top: 1px solid #fff;
+	padding: 3rem 0;
+
+	@include extra-large-screen {
+		padding: 5rem 0;
+	}
+	@include large-screen {
+		padding: 4rem 0;
+	}
+	@include tab-screen {
+		padding: 2rem 0;
+	}
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+
+		li {
+			&:not(:last-child) {
+				border-right: 1px solid #fff;
+				padding-right: 1.1rem;
+				margin-right: 1.1rem;
+
+				@include tab-screen {
+					margin-bottom: 1rem;
+				}
+			}
+
+			a {
+				color: $primary-color;
+				display: block;
+				line-height: 1;
+			}
+		}
+	}
+	a,
+	p {
+		font-size: 22px;
+		@include lato-light;
+
+		@include extra-large-screen {
+			font-size: 32px;
+		}
+	}
+}
+@include extra-large-screen {
+
+}
+@include large-screen {
+	
+}
+@include medium-screen {
+	
+}
+@include tab-screen {
+	
+}
+@include mobile-screen {
+	
+}

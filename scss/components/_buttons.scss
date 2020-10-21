@@ -1,0 +1,41 @@
+.big-button {
+	background-color: $primary-color;
+	color: $secondary-color;
+	border-radius: 2rem;
+	font-size: 1.8rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+
+	@include extra-large-screen {
+		height: 75px;
+		max-width: 365px;
+		padding: .3rem 3rem;
+	}
+	@include large-screen {
+		height: 65px;
+		max-width: 300px;
+		font-size: 1.5rem;
+		padding: .3rem 2rem;
+	}
+	@include medium-screen {
+		height: 55px;
+		max-width: 250px;
+	}
+	@include tab-screen {
+		
+	}
+		
+	
+	&:hover {
+		color: #000;
+	}
+}
+
+// .bold-button {
+// 	&:hover {
+
+// 	}
+// }
