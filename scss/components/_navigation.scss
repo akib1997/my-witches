@@ -55,6 +55,7 @@
     margin-left: auto;
     position: relative;
     z-index: 999;
+    padding: 0;
 
     @include large-screen {
         display: block;

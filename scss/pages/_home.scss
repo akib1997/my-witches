@@ -178,15 +178,15 @@
 .my-mission {
 	@include extra-large-screen {
 		padding-bottom: 4.5rem;
-		padding-top: 10rem;
+		padding-top: 24rem;
 	}
 	@include large-screen {
 		padding-bottom: 2.5rem;
-		padding-top: 6rem;
+		padding-top: 15rem;
 	}
 	@include medium-screen {
 		padding-bottom: 2rem;
-		padding-top: 7rem;
+		padding-top: 10rem;
 	}
 
 	a {
